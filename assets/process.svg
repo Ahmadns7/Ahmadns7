@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="MercuReal process: Discover, Design, Build, Launch, Support">
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a1330"/>
+      <stop offset="1" stop-color="#142252"/>
+    </linearGradient>
+    <linearGradient id="track" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#9fe8ff" stop-opacity="0.15"/>
+      <stop offset="0.5" stop-color="#9fe8ff" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#9fe8ff" stop-opacity="0.15"/>
+    </linearGradient>
+    <radialGradient id="node" cx="35%" cy="30%" r="80%">
+      <stop offset="0" stop-color="#2c4a9a"/>
+      <stop offset="1" stop-color="#0f1b3d"/>
+    </radialGradient>
+  </defs>
+  <style>
+    .t { font-family: 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; }
+    .n { font-size: 24px; font-weight: 800; fill: #9fe8ff; }
+    .h { font-size: 20px; font-weight: 700; fill: #ffffff; }
+    .d { font-size: 14px; fill: #a9b8cf; }
+  </style>
+
+  <rect width="1200" height="300" rx="28" fill="url(#panel)"/>
+
+  <!-- track -->
+  <rect x="120" y="89" width="960" height="3" rx="1.5" fill="url(#track)"/>
+  <circle cx="120" cy="90.5" r="5" fill="#9fe8ff">
+    <animate attributeName="cx" values="120;1080;120" dur="10s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- 1 -->
+  <circle cx="120" cy="90" r="38" fill="url(#node)" stroke="#9fe8ff" stroke-opacity="0.7" stroke-width="1.5"/>
+  <text class="t n" x="120" y="99">01</text>
+  <text class="t h" x="120" y="170">Discover</text>
+  <text class="t d" x="120" y="200">Understand your goals</text>
+  <text class="t d" x="120" y="220">and requirements.</text>
+
+  <!-- 2 -->
+  <circle cx="360" cy="90" r="38" fill="url(#node)" stroke="#9fe8ff" stroke-opacity="0.7" stroke-width="1.5"/>
+  <text class="t n" x="360" y="99">02</text>
+  <text class="t h" x="360" y="170">Design</text>
+  <text class="t d" x="360" y="200">Wireframes, UI and</text>
+  <text class="t d" x="360" y="220">brand direction.</text>
+
+  <!-- 3 -->
+  <circle cx="600" cy="90" r="38" fill="url(#node)" stroke="#9fe8ff" stroke-opacity="0.7" stroke-width="1.5"/>
+  <text class="t n" x="600" y="99">03</text>
+  <text class="t h" x="600" y="170">Build</text>
+  <text class="t d" x="600" y="200">Clean, tested code on</text>
+  <text class="t d" x="600" y="220">modern tools.</text>
+
+  <!-- 4 -->
+  <circle cx="840" cy="90" r="38" fill="url(#node)" stroke="#9fe8ff" stroke-opacity="0.7" stroke-width="1.5"/>
+  <text class="t n" x="840" y="99">04</text>
+  <text class="t h" x="840" y="170">Launch</text>
+  <text class="t d" x="840" y="200">Deploy, optimise and</text>
+  <text class="t d" x="840" y="220">go live smoothly.</text>
+
+  <!-- 5 -->
+  <circle cx="1080" cy="90" r="38" fill="url(#node)" stroke="#9fe8ff" stroke-opacity="0.7" stroke-width="1.5"/>
+  <text class="t n" x="1080" y="99">05</text>
+  <text class="t h" x="1080" y="170">Support</text>
+  <text class="t d" x="1080" y="200">Updates, fixes and</text>
+  <text class="t d" x="1080" y="220">ongoing care.</text>
+
+  <text class="t d" x="600" y="272" fill-opacity="0.7">A simple, transparent process from first idea to long-term support</text>
+</svg>

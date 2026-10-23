@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 450" width="1200" height="450" role="img" aria-label="MercuReal services">
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a1330"/>
+      <stop offset="1" stop-color="#142252"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1b2a5a" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#0f1b3d" stop-opacity="0.9"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#9fe8ff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#9fe8ff"/>
+      <stop offset="1" stop-color="#9fe8ff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .t { font-family: 'Segoe UI', Helvetica, Arial, sans-serif; }
+    .h { font-size: 21px; font-weight: 700; fill: #ffffff; }
+    .d { font-size: 15px; fill: #a9b8cf; }
+  </style>
+
+  <rect width="1200" height="450" rx="28" fill="url(#panel)"/>
+
+  <!-- Row 1 -->
+  <g>
+    <rect x="30" y="30" width="360" height="190" rx="20" fill="url(#card)" stroke="#2c3e72"/>
+    <rect x="70" y="30" width="280" height="2" fill="url(#accent)"/>
+    <circle cx="82" cy="85" r="28" fill="#0a1330" stroke="#9fe8ff" stroke-opacity="0.6"/>
+    <text x="82" y="94" text-anchor="middle" font-size="26">🌐</text>
+    <text class="t h" x="125" y="92">Web Development</text>
+    <text class="t d" x="60" y="150">Responsive, accessible websites</text>
+    <text class="t d" x="60" y="176">and modern web applications.</text>
+  </g>
+  <g>
+    <rect x="420" y="30" width="360" height="190" rx="20" fill="url(#card)" stroke="#2c3e72"/>
+    <rect x="460" y="30" width="280" height="2" fill="url(#accent)"/>
+    <circle cx="472" cy="85" r="28" fill="#0a1330" stroke="#9fe8ff" stroke-opacity="0.6"/>
+    <text x="472" y="94" text-anchor="middle" font-size="26">📱</text>
+    <text class="t h" x="515" y="92">Mobile Apps</text>
+    <text class="t d" x="450" y="150">Cross-platform apps for</text>
+    <text class="t d" x="450" y="176">iOS and Android.</text>
+  </g>
+  <g>
+    <rect x="810" y="30" width="360" height="190" rx="20" fill="url(#card)" stroke="#2c3e72"/>
+    <rect x="850" y="30" width="280" height="2" fill="url(#accent)"/>
+    <circle cx="862" cy="85" r="28" fill="#0a1330" stroke="#9fe8ff" stroke-opacity="0.6"/>
+    <text x="862" y="94" text-anchor="middle" font-size="26">🧊</text>
+    <text class="t h" x="905" y="92">3D &amp; Immersive</text>
+    <text class="t d" x="840" y="150">Interactive 3D visuals and</text>
+    <text class="t d" x="840" y="176">WebGL experiences.</text>
+  </g>
+
+  <!-- Row 2 -->
+  <g>
+    <rect x="30" y="240" width="360" height="190" rx="20" fill="url(#card)" stroke="#2c3e72"/>
+    <rect x="70" y="240" width="280" height="2" fill="url(#accent)"/>
+    <circle cx="82" cy="295" r="28" fill="#0a1330" stroke="#9fe8ff" stroke-opacity="0.6"/>
+    <text x="82" y="304" text-anchor="middle" font-size="26">⚙️</text>
+    <text class="t h" x="125" y="302">Automation &amp; APIs</text>
+    <text class="t d" x="60" y="360">Custom APIs, workflows and</text>
+    <text class="t d" x="60" y="386">integrations that save time.</text>
+  </g>
+  <g>
+    <rect x="420" y="240" width="360" height="190" rx="20" fill="url(#card)" stroke="#2c3e72"/>
+    <rect x="460" y="240" width="280" height="2" fill="url(#accent)"/>
+    <circle cx="472" cy="295" r="28" fill="#0a1330" stroke="#9fe8ff" stroke-opacity="0.6"/>
+    <text x="472" y="304" text-anchor="middle" font-size="26">☁️</text>
+    <text class="t h" x="515" y="302">Cloud &amp; Deployment</text>
+    <text class="t d" x="450" y="360">Hosting, CI/CD and</text>
+    <text class="t d" x="450" y="386">infrastructure that scales.</text>
+  </g>
+  <g>
+    <rect x="810" y="240" width="360" height="190" rx="20" fill="url(#card)" stroke="#2c3e72"/>
+    <rect x="850" y="240" width="280" height="2" fill="url(#accent)"/>
+    <circle cx="862" cy="295" r="28" fill="#0a1330" stroke="#9fe8ff" stroke-opacity="0.6"/>
+    <text x="862" y="304" text-anchor="middle" font-size="26">🎨</text>
+    <text class="t h" x="905" y="302">UI/UX &amp; IT Support</text>
+    <text class="t d" x="840" y="360">Clean interfaces, branding,</text>
+    <text class="t d" x="840" y="386">consulting and support.</text>
+  </g>
+</svg>

@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 370" width="1200" height="370" role="img" aria-label="MercuReal tech stack by category">
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a1330"/>
+      <stop offset="1" stop-color="#142252"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .t { font-family: 'Segoe UI', Helvetica, Arial, sans-serif; }
+    .l { font-size: 18px; font-weight: 700; fill: #9fe8ff; }
+    .c { font-size: 15px; font-weight: 600; fill: #e6f1ff; text-anchor: middle; }
+    .chip { fill: #1b2a5a; stroke: #3a508f; stroke-width: 1; }
+  </style>
+
+  <rect width="1200" height="370" rx="28" fill="url(#panel)"/>
+
+  <!-- Frontend -->
+  <text class="t l" x="40" y="68">Frontend</text>
+  <g>
+    <rect class="chip" x="240" y="42" width="75" height="38" rx="19"/><text class="t c" x="277.5" y="66">React</text>
+    <rect class="chip" x="327" y="42" width="92" height="38" rx="19"/><text class="t c" x="373" y="66">Next.js</text>
+    <rect class="chip" x="431" y="42" width="117" height="38" rx="19"/><text class="t c" x="489.5" y="66">TypeScript</text>
+    <rect class="chip" x="560" y="42" width="117" height="38" rx="19"/><text class="t c" x="618.5" y="66">JavaScript</text>
+    <rect class="chip" x="689" y="42" width="134" height="38" rx="19"/><text class="t c" x="756" y="66">Tailwind CSS</text>
+    <rect class="chip" x="835" y="42" width="117" height="38" rx="19"/><text class="t c" x="893.5" y="66">HTML / CSS</text>
+  </g>
+  <rect x="40" y="100" width="1120" height="1" fill="#9fe8ff" fill-opacity="0.12"/>
+
+  <!-- Backend -->
+  <text class="t l" x="40" y="153">Backend</text>
+  <g>
+    <rect class="chip" x="240" y="127" width="92" height="38" rx="19"/><text class="t c" x="286" y="151">Node.js</text>
+    <rect class="chip" x="344" y="127" width="83" height="38" rx="19"/><text class="t c" x="385.5" y="151">Python</text>
+    <rect class="chip" x="439" y="127" width="109" height="38" rx="19"/><text class="t c" x="493.5" y="151">REST APIs</text>
+    <rect class="chip" x="560" y="127" width="109" height="38" rx="19"/><text class="t c" x="614.5" y="151">Databases</text>
+    <rect class="chip" x="681" y="127" width="117" height="38" rx="19"/><text class="t c" x="739.5" y="151">Automation</text>
+  </g>
+  <rect x="40" y="185" width="1120" height="1" fill="#9fe8ff" fill-opacity="0.12"/>
+
+  <!-- Cloud -->
+  <text class="t l" x="40" y="238">Cloud &amp; DevOps</text>
+  <g>
+    <rect class="chip" x="240" y="212" width="134" height="38" rx="19"/><text class="t c" x="307" y="236">Git &amp; GitHub</text>
+    <rect class="chip" x="386" y="212" width="83" height="38" rx="19"/><text class="t c" x="427.5" y="236">Docker</text>
+    <rect class="chip" x="481" y="212" width="83" height="38" rx="19"/><text class="t c" x="522.5" y="236">Vercel</text>
+    <rect class="chip" x="576" y="212" width="75" height="38" rx="19"/><text class="t c" x="613.5" y="236">CI/CD</text>
+    <rect class="chip" x="663" y="212" width="92" height="38" rx="19"/><text class="t c" x="709" y="236">Hosting</text>
+  </g>
+  <rect x="40" y="270" width="1120" height="1" fill="#9fe8ff" fill-opacity="0.12"/>
+
+  <!-- Design -->
+  <text class="t l" x="40" y="323">Design &amp; 3D</text>
+  <g>
+    <rect class="chip" x="240" y="297" width="75" height="38" rx="19"/><text class="t c" x="277.5" y="321">Figma</text>
+    <rect class="chip" x="327" y="297" width="100" height="38" rx="19"/><text class="t c" x="377" y="321">Three.js</text>
+    <rect class="chip" x="439" y="297" width="75" height="38" rx="19"/><text class="t c" x="476.5" y="321">WebGL</text>
+    <rect class="chip" x="526" y="297" width="92" height="38" rx="19"/><text class="t c" x="572" y="321">Blender</text>
+    <rect class="chip" x="630" y="297" width="66" height="38" rx="19"/><text class="t c" x="663" y="321">GSAP</text>
+    <rect class="chip" x="708" y="297" width="75" height="38" rx="19"/><text class="t c" x="745.5" y="321">UI/UX</text>
+  </g>
+</svg>
